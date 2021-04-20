@@ -1,6 +1,5 @@
 import yfinance as yf
 import pandas as pd
-import matplotlib.pyplot as plt
 import numpy as np
 from statsmodels.tsa.ar_model import AutoReg
 from statsmodels.tsa.statespace.sarimax import SARIMAX

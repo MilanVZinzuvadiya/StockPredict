@@ -1,8 +1,4 @@
 import streamlit as st
-import plotly.express as px
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 from stock_predict import *
 
 @st.cache
