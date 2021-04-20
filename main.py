@@ -71,9 +71,7 @@ st.line_chart(train['Adj Close'])
 st.subheader('HI')
 
 #dtr = pd.DataFrame(train['Adj Close']).append(compare_graph,sort=False)
-dtr = pd.concat([train[['Adj Close']],compare_graph],axis=1,sort=False)
-st.write(dtr)
-st.line_chart(dtr)
+
 
 #dtf = predict_data.append(pd)
 #fg = pd.concat([predict_data_auto,predict_data_arima],axis=1)
