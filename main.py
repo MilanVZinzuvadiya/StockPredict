@@ -32,7 +32,7 @@ def user_input_features():
     list_algo = ['AutoRegression','Moving Average','Simple Exponential Smoothing','Exponential Smoothing']
     selected_algo = []
     for i in list_algo:
-        selected_algo.append(st.sidebar.checkbox(i))
+        selected_algo.append(st.sidebar.checkbox(i,value=True))
     usr_par['selected_algo'] = selected_algo
     seasons = 0
     
