@@ -21,7 +21,7 @@ st.write("""
 # Stock Prediction App
 This app predicts the **Stock Prices** !
 """)
-
+st.subheader('by Milan Zinzuvadiya')
 st.sidebar.header('Prediction Setting')
 
 def user_input_features():
@@ -68,7 +68,6 @@ st.subheader('Prediction of ' + str(df['test_pr'])+' % data of '+df['stock'])
 st.line_chart(compare_graph)
 st.line_chart(train['Adj Close'])
 
-st.subheader('HI')
 
 #dtr = pd.DataFrame(train['Adj Close']).append(compare_graph,sort=False)
 
